@@ -2,8 +2,8 @@ name: Scheduled Form Submit
 
 on:
   schedule:
-    # Runs at 20:00 UTC, Monday - Saturday (adjust to your timezone as needed)
-    - cron: '0 20 * * 1-6'
+    # Runs at 19:00 IST (UTC+5:30) Monday - Saturday -> 13:30 UTC
+    - cron: '30 13 * * 1-6'
   workflow_dispatch: {}
 
 jobs:
